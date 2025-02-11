@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <h2 class="text-3xl underline text-red-500 font-bold">Content Here</h2>
+
+  <div class="container mx-auto px-4 bg-gray-500">
+    <h3>Tailwind Container Example</h3>
+  </div>
+
+  <div class="w-1/2 h-40 bg-blue-500 text-red-500 flex justify-center items-center">
+    50% width and 40px height
+  </div>
+
+  <div class="hidden md:block">
+    This text is hidden on small screens but visible on medium screens
+  </div>
+  <img class="final-right w-32 h-30" alt="Floating to the right"
+    src="https://images.pexels.com/photos/24778714/pexels-photo-24778714/free-photo-of-back-view-of-a-person-walking-on-a-boardwalk-on-a-field-in-iceland.jpeg">
+
+  <p class="clear-both">This text clears the float and moves below the img</p>
+  <div class="relative top-4 left-4 bg-red-500 p-4">
+    relative parent
+    <div class="absolute top-2 right-2 bg-yellow-600 p-2 z-40">1</div>
+    <div class="absolute top-2 right-2 bg-yellow-600 p-2 z-50">2</div>
+    <div class="absolute top-2 right-2 bg-yellow-600 p-2 z-30">3</div>
+    <div class="absolute top-2 right-2 bg-yellow-600 p-2 z-20">4</div>
+
+
+  </div>
+  <img
+    src="https://images.pexels.com/photos/24778714/pexels-photo-24778714/free-photo-of-back-view-of-a-person-walking-on-a-boardwalk-on-a-field-in-iceland.jpeg"
+    class="object-cover w-full h-48 object-center">
+  <div class="flex justify-between items-center">
+    <div>Menu</div>
+    <div>Logo</div>
+  </div>
+  <div class="grid grid-cols-3 gap-4">
+    <div class="bg-green-500 p-4"></div>
+    <div class="bg-yellow-500 p-4"></div>
+  </div>
+
+</body>
+
+</html>
